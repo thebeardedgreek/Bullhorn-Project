@@ -21,7 +21,7 @@ public class HomeController {
     RedditRepository redditRepository;
 
     @RequestMapping("/")
-    public String listReddits(Model model){
+    public String listReddits(Reddit reddit, Model model){
         model.addAttribute("reddits", redditRepository.findAllByOrderByDateDesc());
         return "redditlist";
     }

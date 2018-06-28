@@ -29,10 +29,18 @@ public class Reddit {
     @NotEmpty
     @Size(min = 2)
     private String title;
-//
-//    private int likes;
+
+    private int likes;
 
     private LocalDateTime date;
+
+    public int getLikes() {
+        return likes;
+    }
+
+    public void setLikes(int likes) {
+        this.likes = likes;
+    }
 
     public String getAddressee() {
         return addressee;
