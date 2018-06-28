@@ -1,0 +1,37 @@
+body{
+    background-image: url("/img/background.jpg");
+    background-size: 100%;
+}
+
+.content-wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    border: 2px solid #FF4500;
+}
+
+.app-section{
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    align-items: center;
+    color: white;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.search-align{
+    margin-right: 15px;
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+}
